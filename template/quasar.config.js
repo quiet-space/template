@@ -13,15 +13,6 @@
 const { configure } = require('quasar/wrappers');
 
 module.exports = configure((/* ctx */) => ({
-  eslint: {
-    // fix: true,
-    // include: [],
-    // exclude: [],
-    // rawOptions: {},
-    warnings: true,
-    errors: true,
-  },
-
   // https://v2.quasar.dev/quasar-cli/prefetch-feature
   // preFetch: true,
 
